@@ -4,6 +4,10 @@
 
 # This program was run on DEAC Clusters (https://is.wfu.edu/services/high-performance-computing/)
 
+load("Model1data.Rda")
+library(nimble)
+library(coda)
+
 MCS <- 1000000
 
 code <- nimbleCode({
