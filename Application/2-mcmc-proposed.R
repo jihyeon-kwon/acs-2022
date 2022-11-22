@@ -7,7 +7,7 @@
 load("Model1data.Rda")
 library(nimble)
 library(coda)
-
+ 
 MCS <- 1000000
 
 code <- nimbleCode({
