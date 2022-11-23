@@ -2,7 +2,7 @@
 
 ## Data Source
 - ACS data : https://www.census.gov/programs-surveys/acs (This data was collected using `tidycensus` package)
-- Frequent Mental Distress in North Carolina : https://www.countyhealthrankings.org/explore-health-rankings/north-carolina/data-and-resources
+- Frequent Mental Distress in North Carolina : https://www.countyhealthrankings.org/explore-health-rankings/north-carolina/data-and-resources, https://www.cdc.gov/brfss/brfssprevalence/index.html
 - Rural-Urban Continuum Codes 2013 : https://www.ers.usda.gov/data-products/rural-urban-continuum-codes.aspx
 
 ## Useful Links for Packages Used in the Analysis
