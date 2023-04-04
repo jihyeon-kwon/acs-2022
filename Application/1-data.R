@@ -9,6 +9,7 @@ library(tidyverse) # data wrangling
 library(tidycensus) # download ACS data using API
 library(readxl) # read excel file
 library(here) # working directory management
+library(spdep) # spatial structure
 # census_api_key("yourkey",
 #                overwrite = TRUE,
 #                install = TRUE) # enter your api key to install (do it only once)
@@ -490,8 +491,6 @@ fmd <- mental %>%
         select(GEOID, Year, fmd)
 
 # Adjacency Matrix for NC ------------------------------------------------------
-
-library(spdep)
 
 nc <- st_read(system.file("shapes/sids.shp", package="spData")[1], quiet=TRUE)
 st_crs(nc) <- "+proj=longlat +datum=NAD27"
